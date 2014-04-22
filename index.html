@@ -1,0 +1,22 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta charset="utf-8">
+	<title>jQuery Translate example</title>
+	<script src="jquery-1.11.0.min.js"></script>
+	<script src="jquery.translate.js"></script>
+</head>
+<body>
+	<p>Este es el plugin jquery.translate.</p>
+	<p>Este texto no tiene traducción.</p>
+	<section>
+		<h1>Este es un título</h1>
+		<p>Básicamente, sustituye con el método <em>html()</em> el valor que encuentra en el <strong>diccionario.json</strong>.</p>
+	</section>
+	<script type="text/javascript">
+	$(document).ready(function(){
+		$('body').translate('dictionary.json');
+	});
+	</script>
+</body>
+</html>
