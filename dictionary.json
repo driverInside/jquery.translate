@@ -1,0 +1,5 @@
+{
+	"Este es el plugin jquery.translate." : "This is the jquery.translate plugin",
+	"Este es un título" : "This is a title",
+	"Básicamente, sustituye con el método <em>html()</em> el valor que encuentra en el <strong>diccionario.json</strong>." : "Basically, this plugin replace with the <em>html()</em> method the value in <strong>dictionary.json</strong>."
+}
